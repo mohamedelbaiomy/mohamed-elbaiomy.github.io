@@ -1,0 +1,94 @@
+name: my_portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # github
+  github: ^9.24.0
+
+  # web related
+  flutter_html: any
+  url_strategy: ^0.3.0
+  universal_html: ^2.0.4
+
+  # http
+  http: ^1.2.2
+
+  # utils
+  mailto: ^2.0.0
+  flip_card: ^0.7.0
+  url_launcher: ^6.1.2
+  carousel_slider: ^5.0.0
+  animated_text_kit: ^4.2.1
+  font_awesome_flutter: ^10.1.0
+
+  # state management
+  provider: ^6.0.1
+
+  # cache
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+# flutter pub run flutter_launcher_icons
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  windows:
+    generate: true
+    image_path: "assets/app/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/app/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/app/
+    - assets/photos/
+    - assets/services/
+    - assets/projects/
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: fonts/agustina/agustina.otf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/montserrat.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Light.ttf
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic
