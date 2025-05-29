@@ -70,7 +70,7 @@ class AboutTab extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies I have worked with:',
+            'Technologies & Languages I have worked with:',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),

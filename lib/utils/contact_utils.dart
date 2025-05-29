@@ -9,13 +9,13 @@ class ContactUtils {
 
   static const List<String> titles = [
     "Location",
-    "Phone",
+    "Contact Number",
     "Email",
   ];
 
   static const List<String> details = [
     "Qaliubia",
-    "(+20) 01556178095",
+    "Whats app (+20) 01009428689\n\n Phone (+20) 01556178095",
     "mohamedelbaiomy262003@gmail.com",
   ];
 }
